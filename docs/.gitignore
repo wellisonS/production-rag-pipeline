@@ -1,0 +1,19 @@
+# Segredos
+.env
+
+# Ambientes e caches do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Dados gerados (podem ser recriados pela ingestão)
+data/processed/
+data/interim/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
